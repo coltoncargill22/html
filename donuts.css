@@ -1,0 +1,23 @@
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.color{
+    background-color: red;
+    color: white;
+
+}
+
+body {
+	margin: 0px auto auto auto;
+
+  width: 90%;
+	max-width: 1020px;
+
+}
+
+.hline{
+  border: 1px; 
+
+}

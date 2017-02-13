@@ -1,0 +1,48 @@
+table, th, td {
+    border: 1px solid black;
+
+}
+table{
+    width: 75%;
+background-color: pink;
+vertical-align: middle;
+}
+table, th {
+  font-size: 250%;
+  color: black;
+font-family: "Impact";
+
+
+}
+body {
+    background-image: url("images/iceback.jpg");
+}
+.blueBackground{
+  background-color: blue;
+}
+
+.Vanilla{
+   background-image: url("images/vanilla1.jpg");
+   height: 100px;
+width: 500px;
+}
+.chocolate{
+    background-image: url("images/choc.jpg");
+    height: 100px;
+ width: 500px;
+}
+.mint{
+    background-image: url("images/mint.jpg");
+    height: 100px;
+ width: 500px;
+}
+.butter{
+  background-image: url("images/butter.jpg");
+  height: 100px;
+width: 500px;
+}
+.mm{
+  background-image: url("images/mm.jpg");
+  height: 100px;
+width: 500px;
+}
