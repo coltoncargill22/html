@@ -5,6 +5,42 @@
 </title>
 
 <body background="images/white.jpg">
+
+	<p>Click the button to go on to the next page:</p>
+
+	<button onclick="myFunction()">Try it</button>
+
+	<p id="test"></p>
+
+	<script>
+	function myFunction() {
+	var changingWOrdsWhenAlertBoxAppears;
+	if(confirm("HURRY PRESS OK NOW!") == true)
+	{
+	  changingWOrdsWhenAlertBoxAppears = "You pressed OK!, now you are going to see more stuff!!!!";
+
+	}
+	  else
+	   {
+	  changingWOrdsWhenAlertBoxAppears = "Why did you press cancel, you hurt my fellings.";
+	  }
+	  document.getElementById("test").innerHTML = changingWOrdsWhenAlertBoxAppears;
+
+	}
+
+	</script>
+
+
+	    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+	    Click me to display Date and Time.</button>
+
+	    <p id="demo"></p>
+
+
+
+
+
+
 <p align="center"><img src="images/bread.jpg" width="130" height="100">
 
 <h1 align="center"> 5 Recipes
